@@ -1,0 +1,127 @@
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mt-2 {
+    margin-top: 2rem !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs li {
+    border: 1px solid #6a6a6a;
+}
+
+.nav-tabs li.active {
+    border: none;
+}
+
+.nav-tabs li.active> a {
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 0;    
+}
+
+.nav-tabs li > a {
+    color: #707070;
+    border-radius: 0; 
+}
+.nav-tabs li:first-child {
+    margin-right: 4px;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active:hover>a,
+.nav-tabs li.active:focus>a {
+    background-color: #b51600;
+    color: #FFFFFF; 
+}
+
+.nav-tabs li.active> a::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #b51600;
+    position: absolute;
+    top: 35px;
+    left: 85px;
+}
+
+.cnt-home li:first-child {
+    border-radius: 0 !important;
+}
+
+.owl-project {
+    position: relative;
+    display: block; 
+}
+
+.owl-project .project {
+    position: relative;
+    width: 100%;
+}
+
+.owl-project .project .project-image,
+.owl-project .project .project-review,
+.owl-project .project .project-image a {
+    width: 100%;
+}
+
+.owl-project .project .project-review {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);   
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.owl-project .project .project-image {
+    height: 415px;
+}
+
+.owl-project .project .project-image a {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: inherit;
+    z-index: 100;
+}
+
+.owl-project .project:hover .project-image a img,
+.owl-project .project:focus .project-image a img {
+    transform: scale(1.125);
+    transition: all .5s;
+    z-index: 99;
+}
+
+.owl-project .project .project-image a img::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+.owl-project .project:hover .project-image a img::before,
+.owl-project .project:focus .project-image a img::before {
+    display: block;
+}
+
+@media ( min-width: 920px) {
+    .box-size-img {
+        height: 415px;
+        width: inherit;
+    }
+}

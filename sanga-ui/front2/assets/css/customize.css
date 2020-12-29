@@ -1,0 +1,541 @@
+.pd-0 {
+    padding: 0px !important;
+}
+.pd-l-0 {
+    padding-left: 0px !important;
+}
+.pd-r-0{
+    padding-right: 0px !important;
+}
+.margin-left-0 {
+    margin-left: 0px !important;
+}
+.bg-white {
+    background-color: #fff;
+}
+.box-specify {
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+.card-box-head {
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    background-color: #0F6CB2;
+    color: #fff;
+}
+#related-news li {
+    border: 2px solid #ffffff;
+    border-right: none;
+    padding: 10px 5px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 12px;
+    font-family: arial;
+}
+#related-news li:hover {
+    border: 2px solid #0f6cb2;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom: 1px solid #cccccc;
+    content: '';
+    display: block;
+}
+#related-news li:hover:first-child {
+    border-radius: 0px;
+}
+.news-type-style {
+    display: inline-flex !important;
+    margin-bottom: 0px;
+}
+.news-type-style li {
+    padding-right: 10px;
+}
+.news-type-style li a {
+    border: 1px solid #fff;
+    font-family: arial;
+}
+.news-type-style li a:hover {
+    border: 1px solid #0F6CB2;
+}
+.news-type-style li a:active {
+    border: 1px solid #0F6CB2;
+    background-color: #0F6CB2;
+    color: #fff;
+}
+.news-type-style li a.active {
+    border: 1px solid #0F6CB2;
+    background-color: #0F6CB2;
+    color: #fff;
+}
+.item-news-box {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    padding: 5px;
+}
+.item-title-box {
+    display: table-cell;
+    position: relative;
+    padding: 5px;
+}
+.item-title-box h5 {
+    display: block;
+    font-weight: 600;
+    font-family: Arial;
+}
+.item-news-box:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.item-news-box:hover h5 {
+    color: #0F6CB2;
+
+}
+/*news details*/
+#box-news-related {
+    box-shadow: none;
+    border-right: 1px solid rgb(204, 204, 204);
+    border-left: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+}
+.news-related-ids ul li {
+    display: block;
+    font-size: 12px;
+    font-family: Arial;
+    border-bottom: 1px dotted #E2E2E3;
+}
+
+.news-related-ids ul li:hover {
+
+}
+
+.news-related-ids ul li a{
+    color: #000;
+}
+
+.btn-active {
+    color: #0F6CB2;
+    border-left: 4px solid #0F6CB2;
+    font-weight: 600;
+}
+
+#text-description{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*---------------------------------------------my account----------------------------------------------------*/
+.breadcrumb {
+    background-color: #F1F1F1;
+    padding-bottom: 5px;
+}
+.breadcrumb ul li:after {
+    display: inline-block;
+}
+
+.menu-left {
+    width: 250px;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.menu-left .profile:before {
+    display: table;
+    content: '';
+    clear: both;
+}
+.menu-left .profile p {
+    margin-top: 10px;
+}
+.menu-left .profile p:first-child {
+    margin-right: 15px;
+}
+.menu-left .profile .image {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.menu-left .profile .name {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #242424;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.menu-left .profile h5 {
+    font-weight: 550;
+}
+.menu-left ul li a {
+    color: #4a4a4a;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+}
+.menu-left ul li:hover {
+    background-color: #ECECEC;
+}
+.menu-left ul li a i{
+    font-size: 20px;
+    height: 30px;
+    width: 40px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 7px;
+    margin: auto;
+    line-height: 30px;
+    color: #999;
+}
+.content-right {
+    float: left;
+    width: 900px;
+    margin-left: 5px;
+    position: relative;
+}
+.content-right .have-margin {
+    width: inherit;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    color: #242424;
+}
+.content-right .add-address {
+    border: 1px dashed #d8d8d8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    color: #007ff0;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    position: relative;
+}
+.content-right .account-profile {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+}
+.content-right .account-profile form:before {
+    display: table;
+    content: "";
+    clear: both;
+}
+.content-right .account-profile p.login-label {
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-bottom: 15px;
+    color: #b0b0b0;
+    font-weight: 300;
+    font-size: 15px;
+}
+.content-right .account-profile div.form-group {
+    width: 100%;
+    padding-top: 10px;
+}
+.content-right .account-profile label{
+    font-weight: 300;
+    font-size: 14px;
+}
+.content-right .account-profile input::placeholder {
+    font-size: 12px;
+    color: #d0d4d7;
+}
+button.btn-update {
+    background-color: #FDD835;
+    padding: 8px 40px;
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+button.btn-update:hover {
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+}
+div.radio-check-box {
+    display: inline-block;
+}
+div.radio-check-box label.form-check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+div.radio-check-box label.form-check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+div.radio-check-box label.form-check-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+div.radio-check-box label.form-check-container:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+div.radio-check-box label.form-check-container input:checked ~ .checkmark {
+    background: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+div.radio-check-box label.form-check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+div.radio-check-box label.form-check-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/*address delivery*/
+.content-right div.address-delivery:before {
+    display: table;
+    content: '';
+    clear: both;
+}
+.content-right div.address-delivery .item {
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 10px;
+    box-shadow: none;
+    border-radius: 4px;
+    border: none;
+}
+.content-right div.address-delivery div.panel-body:before {
+    display: table;
+    content: " ";
+}
+.content-right div.address-delivery div.item .name {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #242424;
+    text-transform: uppercase;
+}
+.content-right div.address-delivery div.item span.default {
+    display: inline-block;
+    font-size: 12px;
+    color: #26bc4e;
+    text-transform: none;
+    font-weight: 400;
+    position: relative;
+    padding-left: 25px;
+}
+.content-right div.address-delivery div.item span.default:before {
+    width: 15px;
+    height: 15px;
+    background: url(../css/images/checked-ok.png);
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-background-size: contain;
+    background-size: contain;
+    left: 6px;
+    top: -1px;
+}
+.content-right div.address-delivery .item .address {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #242424;
+    font-weight: 400;
+}
+.content-right p {
+    margin-top: 10px;
+}
+.content-right div.address-delivery .item .address span {
+    color: #4a4a4a;
+    font-weight: 300;
+}
+.content-right div.address-delivery .item .phone {
+    color: #4a4a4a;
+    font-weight: 300;
+}
+.content-right div.address-delivery .item .action {
+    margin-bottom: 0;
+    font-size: 0;
+}
+.content-right .btn-custom:first-child {
+    margin-right: 7px;
+}
+.content-right .btn-custom {
+    position: absolute;
+    border: none;
+    right: 45px;
+    top: 10px;
+    color: #007ff0;
+    font-size: 14px;
+    background: 0 0;
+    font-weight: 400;
+}
+.content-right .btn-delete-address {
+    right: 10px;
+    color: #d42e1d;
+}
+/*order books*/
+.dashbroad-order {
+    font-size: 13px !important;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-right .dashbroad-order .table-responsive-2 {
+    width: 100%;
+    color: #424242;
+    display: table;
+}
+.content-right .dashbroad-order .table-responsive-2 thead {
+    display: table-header-group;
+}
+.content-right .dashbroad-order .table-responsive-2 thead tr {
+    display: table-row;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody {
+    display: table-row-group;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr {
+    display: table-row;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr:first-child {
+    border-top: none;
+}
+.content-right .dashbroad-order .list-order-in-progress {
+    margin-bottom: 20px;
+    display: table;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td:first-child {
+    text-align: left;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td {
+    padding: 30px 15px;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container {
+    position: relative;
+    overflow: hidden;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container .progress-content{
+    width: 650px;
+    float: left;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container h3 {
+    margin-top: 0;
+    color: #301f1f;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container .progress {
+    height: 8px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container .progress .progress-bar {
+    background-color: #59a238;
+    background-image: none;
+    box-shadow: none;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container span {
+    color: #209624;
+    font-size: 13px;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container .progress-view {
+    float: right;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .progress-container .progress-view .btn {
+    color: #4a4a4a;
+    margin-top: 27px;
+    background-color: #fdd835;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product {
+     margin: 10px auto;
+     overflow: hidden;
+     position: relative;
+ }
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product img {
+    margin-right: 30px;
+    width: 90px;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product img.thumb {
+    float: left;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product .product-info {
+    color: #202020;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 20px;
+    float: left;
+    margin-left: 0;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product .product-info .ncc {
+    margin: 8px 0;
+    font-size: 12px;
+}
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product .product-info .ncc span,
+.content-right .dashbroad-order .list-order-in-progress tbody tr td .product .product-info .price{
+    font-weight: 400;
+}
+.content-right .dashbroad-order .table-responsive-2 thead tr {
+    display: table-row;
+}
+.content-right .dashbroad-order .table-responsive-2 thead tr th {
+    display: table-cell;
+    padding: 20px 15px;
+    border-top: none;
+    color: #787878;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px #f4f4f4 solid;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr td {
+    border: none;
+    position: relative;
+    display: table-cell;
+    padding: 20px 15px;
+    color: #242424;
+    vertical-align: top;
+    border-bottom: 1px #f4f4f4 solid;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr td.notify-success {
+    color: #49da65;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr td.notify-waiting {
+    color: #ffc039;
+}
+.content-right .dashbroad-order .table-responsive-2 tbody tr td.notify-cancel {
+    color: #ff3f3c;
+}
